@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "带筛选的DataGrid", "带筛选的DataGrid\带筛选的DataGrid.csproj", "{99E16603-3FBB-45C7-8578-B5AFD696B694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "带筛选的DataGrid.Core", "带筛选的DataGrid.Core\带筛选的DataGrid.Core.csproj", "{B0007212-3183-4CC8-9D7E-2A0D70BBBEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简化", "简化\简化.csproj", "{50DE60E2-68A5-4934-A31C-1779D59C5695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{DAE8E5BD-EF23-464B-8F28-F912C7810729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E16603-3FBB-45C7-8578-B5AFD696B694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E16603-3FBB-45C7-8578-B5AFD696B694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E16603-3FBB-45C7-8578-B5AFD696B694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E16603-3FBB-45C7-8578-B5AFD696B694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0007212-3183-4CC8-9D7E-2A0D70BBBEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0007212-3183-4CC8-9D7E-2A0D70BBBEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0007212-3183-4CC8-9D7E-2A0D70BBBEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0007212-3183-4CC8-9D7E-2A0D70BBBEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DE60E2-68A5-4934-A31C-1779D59C5695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DE60E2-68A5-4934-A31C-1779D59C5695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DE60E2-68A5-4934-A31C-1779D59C5695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DE60E2-68A5-4934-A31C-1779D59C5695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE8E5BD-EF23-464B-8F28-F912C7810729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE8E5BD-EF23-464B-8F28-F912C7810729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE8E5BD-EF23-464B-8F28-F912C7810729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE8E5BD-EF23-464B-8F28-F912C7810729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {951EFC2E-45B4-45DE-B684-E3ABFC3F8DB5}
+	EndGlobalSection
+EndGlobal

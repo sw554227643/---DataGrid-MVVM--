@@ -1,0 +1,39 @@
+﻿<Window
+    x:Class="简化.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:prism="http://prismlibrary.com/"
+    Title="{Binding Title}"
+    Width="525"
+    Height="350"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <DataGrid
+            Name="dataGrid"
+            AutoGenerateColumns="False"
+            CanUserDeleteRows="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="Id" />
+                <DataGridTextColumn Binding="{Binding FirstName}" Header="FirstName" />
+                <DataGridTextColumn Binding="{Binding LastName}" Header="LastName" />
+                <DataGridTextColumn Binding="{Binding Birthday}" Header="Birthday" />
+                <DataGridTextColumn Binding="{Binding Salay}" Header="Salay" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal">
+                <Button
+                    Width="120"
+                    Click="Button_Click"
+                    Content="New Employee" />
+                <hc:TextBox
+                    Name="filterTextBox"
+                    Width="200"
+                    Margin="5,0"
+                    hc:InfoElement.Placeholder="Filter data by name"
+                    TextChanged="filterTextBox_TextChanged" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
